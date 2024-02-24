@@ -31,5 +31,5 @@ Comparison with other methods on the Kvasir-Sessile datasets.
 <img src="imgs/result2.png" width="75%">
 
 ### 3.2 Visualization of EPPS Outputs
-<img src="imgs/more_vis.jpg" width="75%">
+<img src="imgs/vis.jpg" width="75%">
 
