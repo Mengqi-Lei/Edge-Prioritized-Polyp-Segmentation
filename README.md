@@ -1,4 +1,4 @@
-# EPPS: Edge-Prioritized Polyp Segmentation
+# EPPS: Advanced Polyp Segmentation via Edge Information Injection and Selective Feature Decoupling
 
 ## 1. Abstract
 <div align="justify">
