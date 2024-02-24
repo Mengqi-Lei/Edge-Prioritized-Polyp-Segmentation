@@ -24,12 +24,12 @@ The model can be trained by running train.py, and the results can be tested and 
 ### 3.1 Comparison with State-of-the-Art Methods
 Comparison with other methods on the Kvasir-SEG and CVC-ClinicDB datasets.
 
-<img src="imgs/result1.png">
+<img src="imgs/result1.png" width="75%">
 
 Comparison with other methods on the Kvasir-Sessile datasets.
 
-<img src="imgs/result2.png">
+<img src="imgs/result2.png" width="75%">
 
 ### 3.2 Visualization of EPPS Outputs
-<img src="imgs/more_vis.jpg">
+<img src="imgs/more_vis.jpg" width="75%">
 
