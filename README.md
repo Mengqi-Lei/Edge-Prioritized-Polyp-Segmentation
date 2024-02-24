@@ -6,7 +6,7 @@ Accurate segmentation of polyps in colonoscopy images is essential for early-sta
 </div>
 
 ## 2. Architecture
-<img src="Overall.jpg">
+<img src="imgs/Overall.jpg">
 
 ## 3. Implementation
 EPPS is implemented using the PyTorch framework (1.13 + cu11) with a single GeForce RTX 3090 GPU of 24 GB memory. 
@@ -24,12 +24,12 @@ The model can be trained by running train.py, and the results can be tested and 
 ### 3.1 Comparison with State-of-the-Art Methods
 Comparison with other methods on the Kvasir-SEG and CVC-ClinicDB datasets.
 
-<img src="result1.png">
+<img src="imgs/result1.png">
 
 Comparison with other methods on the Kvasir-Sessile datasets.
 
-<img src="result2.png">
+<img src="imgs/result2.png">
 
 ### 3.2 Visualization of EPPS Outputs
-<img src="more_vis.jpg">
+<img src="imgs/more_vis.jpg">
 
