@@ -92,7 +92,7 @@ def load_data(path):
     valid_names_path = f"{path}/val.txt"
 
     train_x, train_y = load_names(path, train_names_path)
-    valid_x, valid_y = load_names(path, valid_names_path)  # 读取图像和掩码的路径
+    valid_x, valid_y = load_names(path, valid_names_path)
 
     return (train_x, train_y), (valid_x, valid_y)
 
