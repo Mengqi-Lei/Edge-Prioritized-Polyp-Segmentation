@@ -98,12 +98,12 @@ class selective_feature_decoupler(nn.Module):
         self.in_h = in_h
         self.in_w = in_w
 
-        # 3*3CBL 2
+        # 3*3CBR 2
         self.c1 = nn.Sequential(
             CBR(in_c, in_c, kernel_size=3, padding=1),
             CBR(in_c, out_c, kernel_size=3, padding=1)
         )
-        # 3*3CBL 2
+        # 3*3CBR 2
         self.c2 = nn.Sequential(
             CBR(in_c, in_c, kernel_size=3, padding=1),
             CBR(in_c, out_c, kernel_size=3, padding=1)
