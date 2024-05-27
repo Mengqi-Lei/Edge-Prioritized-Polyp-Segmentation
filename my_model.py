@@ -147,7 +147,7 @@ class selective_feature_decoupler(nn.Module):
 
         # calculate mi loss
         mi_lb = self.mutual_information(joint, marginal)
-        loss_mi = -mi_lb
+        loss_mi = mi_lb
 
         # sigmoid
         loss_mi = torch.sigmoid(loss_mi)
